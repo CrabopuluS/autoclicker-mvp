@@ -103,15 +103,6 @@ scripts/
   generate_brand_assets.py
 ```
 
-## Release automation (GitHub Actions)
-
-Push a tag like `v1.0.0` to trigger Windows build and publish release assets:
-
-```powershell
-git tag v1.0.0
-git push origin v1.0.0
-```
-
 Workflow file: `.github/workflows/release.yml`
 
 ## License
